@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card-Heaven's Brew</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e2e9e6;
+            overflow-x: hidden;
+        }
+        .menu-card {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #0a0a0a;
+            border: 15px solid #f0a03c;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #0c0c0c;
+        }
+        .menu-card h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h3 {
+            margin-top: 0;
+            background-color:#f0a03c ;
+            color:rgb(249, 249, 249);
+            padding: 15px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #f0a03c;
+        }
+        th {
+            background-color: #3a6f58;
+            color: #f0a03c;
+            font-size: 20px;
+        }
+        td {
+            color: #fff;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #111111;
+            padding: 1rem;
+            display: flex;
+            padding-inline: 20px;
+            align-items: center;
+        }
+        
+        .contact-info, .social-media, .newsletter-signup {
+            flex: 1;
+        }
+        
+        .social-media {
+            display: flex;
+            gap: 3rem;
+            justify-content: center;
+        }
+        
+        .social-media .a1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #FFD700;
+        }
+        
+        .social-media .a1 img {
+            margin-bottom: 0.5rem;
+        }
+        
+        .social-media .a1:hover {
+            color: #FFA500;
+        }
+        
+        .newsletter-signup form {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .newsletter-signup input {
+            flex: 1;
+        }
+        
+        .quick-links {
+            padding-left: 190px;
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            line-height: 1.5;
+        }
+        
+        .a1 {
+            color: white;
+            text-decoration: none;
+        }
+        .logo-container {
+    display: flex;
+    align-items: center;
+    transform: translateX(10%);
+}
+
+.logo {
+    height: 80px;
+    margin-left: 10px;
+    border-radius: 50px;
+    width:100px;
+    transform:translateX(-100%);
+}
+.rest-name{
+    margin: 0;
+    margin-left: 170px;
+}
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <header style="color:white; font-weight:bolder; ">
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo">
+            <h1 class="rest-name" style="color:#FFA500;;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 40px;font-weight: bolder;">Menu</h1>
+                </div>
+        </header>
+        <div class="section" id="section-coffee">
+            <h3>Coffee</h3>
+            <table>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td>Rs. 130</td>
+                </tr>
+                <tr>
+                    <td>Latte</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Americano</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Iced Coffee</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Black Coffee</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Cold Brew</td>
+                    <td>Rs. 250</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-breads">
+            <h3>Special Breads</h3>
+            <table>
+                <tr>
+                    <td>Garlic Bread</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Cheese Bread</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Stuffed Bread</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Herb Bread</td>
+                    <td>Rs. 70</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-pizzas">
+            <h3>Types of Indian Variety Pizzas</h3>
+            <table>
+                <tr>
+                    <td>Margherita Pizza</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Veg Classic Cheese Pizza</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Golden Corn Pizza</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Italian Pizza</td>
+                    <td>Rs. 300</td>
+                </tr>
+                <tr>
+                    <td>Baby Corn Pizza</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Onion & Capsicum Pizza</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Tomato Sizzling Pizza</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Double Cheese Pizza</td>
+                    <td>Rs. 260</td>
+                </tr>
+                <tr>
+                    <td>Mexican Pizza</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Paneer Tikka Pizza</td>
+                    <td>Rs. 300</td>
+                </tr>
+                <tr>
+                    <td>Mushroom Pizza</td>
+                    <td>Rs. 300</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Pizza</td>
+                    <td>Rs. 200</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-burgers">
+            <h3>Burgers</h3>
+            <table>
+                <tr>
+                    <td>Veg Burger</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Cheese Burger</td>
+                    <td>Rs. 80</td>
+                </tr>
+                <tr>
+                    <td>Paneer Burger</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Mushroom Burger</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Chicken Burger</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Fish Burger</td>
+                    <td>Rs. 250</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-mocktails">
+            <h3>Mocktails</h3>
+            <table>
+                <tr>
+                    <td>Virgin Pina Colada</td>
+                    <td>Rs. 123</td>
+                </tr>
+                <tr>
+                    <td>Grape Mocktail</td>
+                    <td>Rs. 190</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>Rs. 60</td>
+                </tr>
+                <tr>
+                    <td>Mojito Mocktail</td>
+                    <td>Rs. 30</td>
+                </tr>
+                <tr>
+                    <td>Shirley Temple</td>
+                    <td>Rs. 80</td>
+                </tr>
+                <tr>
+                    <td>Virgin Mojito</td>
+                    <td>Rs. 90</td>
+                </tr>
+                <tr>
+                    <td>Pina Colada Mocktail</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Watermelon Mojito</td>
+                    <td>Rs. 40</td>
+                </tr>
+                <tr>
+                    <td>Fruity Mocktail</td>
+                    <td>Rs. 90</td>
+                </tr>
+                <tr>
+                    <td>Kiwi Mocktail</td>
+                    <td>Rs. 80</td>
+                </tr>
+                <tr>
+                    <td>Orange Mocktail</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Blueberry Lemonade</td>
+                    <td>Rs. 70</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-icecream">
+            <h3>Ice Cream</h3>
+            <table>
+                <tr>
+                    <td>Gelato</td>
+                    <td>Rs. 230</td>
+                </tr>
+                <tr>
+                    <td>Kulfi</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Sherbet</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Ice Popsicle</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Sorbet</td>
+                    <td>Rs. 230</td>
+                </tr>
+                <tr>
+                    <td>Cookies N' Cream</td>
+                    <td>Rs. 250</td>
+                </tr>
+                <tr>
+                    <td>Italian Ice</td>
+                    <td>Rs. 260</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-sandwiches">
+            <h3>Sandwiches</h3>
+            <table>
+                <tr>
+                    <td>Plain Sandwich</td>
+                    <td>Rs. 60</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Sandwich</td>
+                    <td>Rs. 100</td>
+                </tr>
+                <tr>
+                    <td>Grilled Cheese Sandwich</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Club Sandwich</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Submarine Sandwich</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Veg Sandwich</td>
+                    <td>Rs. 70</td>
+                </tr>
+                <tr>
+                    <td>Chicken Sandwich</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Paneer Sandwich</td>
+                    <td>Rs. 120</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="section-pasta">
+            <h3>Pasta</h3>
+            <table>
+                <tr>
+                    <td>Alfredo Pasta</td>
+                    <td>Rs. 250</td>
+                </tr>
+                <tr>
+                    <td>Pesto Pasta</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Bolognese Pasta</td>
+                    <td>Rs. 300</td>
+                </tr>
+                <tr>
+                    <td>Marinara Pasta</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Carbonara Pasta</td>
+                    <td>Rs. 350</td>
+                </tr>
+                <tr>
+                    <td>Arrabbiata Pasta</td>
+                    <td>Rs. 250</td>
+                </tr>
+                <tr>
+                    <td>Primavera Pasta</td>
+                    <td>Rs. 200</td>
+                </tr>
+                <tr>
+                    <td>Lasagna</td>
+                    <td>Rs. 300</td>
+                </tr>
+                <tr>
+                    <td>Ravioli</td>
+                    <td>Rs. 350</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>
+        <img src="logo.png" height="100px" width="100px">
+    </div>
+    <div class="contact-info1" style="padding:30px; background:none; color:white;" >
+        <p>Contact Us: 8776665453</p>
+        <p>Email: heavensbrew@gmail.com </p>
+    </div>
+    <div class="quick-links">
+        <h3 style="padding-left: 20px;color: gold;">Quick Links</h3>
+        <ul style="list-style-type: none;">
+            <li><a class="a1" href="index.html">Homepage</a></li>
+            <li><a class="a1" href="abouthotel.html">About Us</a></li>
+            <li><a class="a1" href="testmonial.html">Gallery & Testimonials</a></li>
+            <li><a class="a1" href="index1.html">Events</a></li>
+            <li><a class="a1" href="reservation.html">Book Now</a></li>
+            <li><a class="a1" href="CONTACT US.HTML">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="social-media">
+        <a class="a1" href="#">
+            <img src="Screenshot 2024-05-17 203215.png" width="20px" height="20px">
+            <span>Facebook</span>
+        </a>
+        <a class="a1" href="#">
+            <img src="Screenshot 2024-05-17 203223.png" width="20px" height="20px">
+            <span>Instagram</span>
+        </a>
+        <a class="a1" href="#">
+            <img src="twitter.jpeg" width="20px" height="20px">
+            <span>Twitter</span>
+        </a>
+    </div>
+</footer>
+
+</html>

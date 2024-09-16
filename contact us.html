@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts & Location - Heavens Brew</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 0px;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        #map {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info, .restaurant-info {
+            background-color: #fff;
+            padding: 20px;
+            align-content: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #d9534f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c9302c;
+        }
+
+        a {
+            color: #d9534f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #111111;
+            padding: 1rem;
+            display: flex;
+            padding-inline: 20px;
+            align-items: center;
+        }
+
+        .contact-info, .social-media, .newsletter-signup {
+            flex: 1;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 3rem;
+            justify-content: center;
+        }
+
+        .social-media .a1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #FFD700;
+        }
+
+        .social-media .a1 img {
+            margin-bottom: 0.5rem;
+        }
+
+        .social-media a1:hover {
+            color: #FFA500;
+        }
+
+        .newsletter-signup form {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .newsletter-signup input {
+            flex: 1;
+        }
+
+        .quick-links{
+            padding-left:190px;
+            color:white;
+            text-decoration: none;
+            list-style-type: none;
+            line-height: 1.5;
+
+        }
+        .a1{
+        color:white;
+        text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<header>
+    <h1>Contacts & Location</h1>
+</header>
+<body>
+
+    <div class="container">
+        
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1983736.6240204044!2d74.6917519!3d13.8098547!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDU3JzAzLjgiTiA3NcKwMzMnMTguMSJF!5e0!3m2!1sen!2sin!4v1721071371031!5m2!1sen!2sin" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-info">
+            <h3>Send Us a message</h3>
+            <form id="contact-form">
+                <label for="name">Your name*</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your e-mail*</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Your message*</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        
+            <h3>Heaven's Brew</h3>
+            <p><center>Shravana Complex, Kariyanna building, Kashipura main road, Shivamogga</center></p>
+            <p><center>You can call us at <a href="tel:+17602301400">(760) 230-1400</a> / <a href="tel:+17604368669">(760) 436-8669</a>.</center></p>
+            <p><center><a href="mailto:heavensbrew@gmail.com">heavensbrew@gmail.com</a></center></p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="logo.png" height="100px" width="100px">
+        </div>
+        <div class="contact-info1" style="padding:30px ; background:none; color:white;" >
+            <p>Contact Us: 8776665453</p>
+            <p>Email: heavensbrew@gmail.com </p>
+        </div>
+        <div class="quick-links">
+            <h3 style= " padding-right: 10px;color:gold;">Quick Links</h3>
+            <ul style="list-style-type:none;">
+                <li><a class="a1" href="index.html">Homepage</a></li>
+                <li><a class="a1" href="abouthotel.html">About Us</a></li>
+                <li><a class="a1" href="menu.html">Menu</a></li>
+                <li><a class="a1" href="testmonial.html">Gallery & Testimonials</a></li>
+                <li><a  class="a1" href="index1.html">Events</a></li>
+                <li><a  class="a1" href="reservation.html">Book Now</a></li>
+              
+            </ul>
+        </div>
+
+        <div class="social-media">
+            <a class="a1" href="#">
+                <img src="Screenshot 2024-05-17 203215.png" width="20px" height="20px">
+                <span>Facebook</span>
+            </a>
+            <a class="a1" href="#">
+                <img src="Screenshot 2024-05-17 203223.png" width="20px" height="20px">
+                <span>Instagram</span>
+            </a>
+            <a  class="a1" href="#">
+                <img src="twitter.jpeg" width="20px" height="20px">
+                <span>Twitter</span>
+            </a>
+        </div>
+        
+    </footer>
+
+  
+</body>
+</html>

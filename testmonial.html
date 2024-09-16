@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery & Testimonials</title>
+   <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(255, 255, 255);
+  color:blue;
+    padding: 1em 0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+main {
+    padding: 2em;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color: rgb(0, 0, 0);
+}
+.testimonial-item h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: right;
+}
+
+#gallery, #testimonials {
+    margin-bottom: 2em;
+    background-color: none;
+}
+#testimonials p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large
+}
+
+.testimonial-container {
+    display: flex;
+   flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+.gallery-item, .testimonial-item {
+    
+    background-color: none ;
+    border:none;
+    border-radius: none;
+    padding: 1em;
+    box-shadow:none;
+    flex: 1 1 calc(33% - 1em);
+    box-sizing: none;
+    text-align: center;
+}
+
+.testimonial-item{
+    box-shadow: 0 0 5px rgba(0, 0,0, 1);
+}
+
+
+.gallery-item img {
+    width:500px;
+    height: auto;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.testimonial-item  {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+footer {
+    background-color: #111111;
+    padding: 1rem;
+    display: flex;
+    padding-inline: 20px;
+    align-items: center;
+}
+
+.contact-info, .social-media, .newsletter-signup {
+    flex: 1;
+}
+
+.social-media {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.social-media .a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.social-media .a1 img {
+    margin-bottom: 0.5rem;
+}
+
+.social-media a1:hover {
+    color: #FFA500;
+}
+
+.newsletter-signup form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.newsletter-signup input {
+    flex: 1;
+}
+
+.quick-links{
+    padding-left:190px;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5;
+
+}
+.a1{
+color:white;
+text-decoration: none;
+}
+   </style>
+</head>
+<body style="background-color:blanchedalmond;">
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+      
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="farhad-ibrahimzade-DEovggNHhe0-unsplash.jpg">
+                  
+                </div>
+                <div class="gallery-item">
+                    <img src="gettyimages-184946701-612x612.jpg">
+                  
+                </div>
+                <div class="gallery-item">
+                    <img src="gettyimages-508768432-612x612.jpg">
+                    
+              
+                </div>
+                     <div class="gallery-item">
+                    <img src="gettyimages-872841180-612x612.jpg">
+                    
+                </div>
+                     <div class="gallery-item">
+                    <img src="gettyimages-1044725716-612x612.jpg">
+                </div>
+                </div>
+                     <div class="gallery-item">
+                      <img src="engin-akyurt-3ORoQEJY9LA-unsplash.jpg">
+                 </div>
+                 
+            <div class="gallery-item">
+             <img src="lex-sirikiat-ymtPhYNK49A-unsplash.jpg">
+        </div> 
+               <div class="gallery-item">
+             <img src="abiwin-krisna-i3WCzPvoTEs-unsplash.jpg">
+            </div>
+            <div class="gallery-item">
+                <img src="anil-sharma-P5njfOpjxxs-unsplash.jpg">
+               </div>
+                </div>
+            
+        </section>
+        
+    
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p1> WHY OUR CUSTOMER LOVE US </p1>
+            <div class="testimonial-container">
+                <div class="testimonial-item">
+                    <p1>"Exceptional service, outstanding coffee, and a fantastic food menu."</p1>
+                    <h4>-Mohith</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p1>"A cozy atmosphere with great music and even better food."</p1>
+                    <h4>-Vittal</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p1>"The fresh, homemade scones are to die for!"</p1>
+                    <h4>-Vrushanka</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p1>"A charming spot with beautiful decor and a friendly atmosphere."</p1>
+                    <h4>-Nandessh</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p1>"Every visit feels like a little escape from the hustle and bustle."</p1>
+                    <h4>-Sanketh</h4>
+                    </div>
+                <div class="testimonial-item">
+                        <p1>"The staff is always welcoming and makes you feel at home."</p1>
+                        <h4>-Nisarga</h4>
+                        </div>
+                <div class="testimonial-item">
+                            <p1>"The atmosphere at Heaven's Brew is both vibrant and soothing, making it ideal for both work and relaxation. Their creative menu, featuring artisanal sandwiches and seasonal salads, always impresses. The friendly staff enhances the overall experience."</p1>
+                            <h4>-Manish</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+  <script src="testmonial.js"></script>
+</body>
+<footer>
+    <div>
+        <img src="logo.png" height="100px" width="100px">
+    </div>
+    <div class="contact-info1" style="padding:30px ; background:none; color:white;" >
+        <p>Contact Us: 8776665453</p>
+        <p>Email: heavensbrew@gmail.com </p>
+    </div>
+    <div class="quick-links">
+        <h3 style= " padding-left: 30px;color:gold;">Quick Links</h3>
+        <ul style="list-style-type:none;">
+            <li><a class="a1" href="index.html">Homepage</a></li>
+            <li><a class="a1" href="abouthotel.html">About Us</a></li>
+            <li><a class="a1" href="menu.html">Menu</a></li> 
+            <li><a class="a1" href="index1.html">Events</a></li>
+            <li><a  class="a1" href="reservation.html">Book Now</a></li>
+            <li><a  class="a1" href="CONTACT US.HTML">Contact Us</a></li>
+          
+        </ul>
+    </div>
+
+    <div class="social-media">
+        <a class="a1" href="#">
+            <img src="Screenshot 2024-05-17 203215.png" width="20px" height="20px">
+            <span>Facebook</span>
+        </a>
+        <a class="a1" href="#">
+            <img src="Screenshot 2024-05-17 203223.png" width="20px" height="20px">
+            <span>Instagram</span>
+        </a>
+        <a  class="a1" href="#">
+            <img src="twitter.jpeg" width="20px" height="20px">
+            <span>Twitter</span>
+        </a>
+    </div>
+    
+</footer>
+</html>

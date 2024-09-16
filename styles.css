@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #0b0101;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.events {
+    padding: 200px;
+    max-width: 1200px;
+    margin: 0 ;
+    background-image: url('7.1.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+
+}
+
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.event:hover {
+    transform: translateY(0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event img {
+    width: 300px;
+    height: auto;
+    border: radius 10px;
+    flex-shrink: 0;
+  
+    
+}
+
+
+.event h2 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 1.8em;
+}
+
+.event p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .event {
+        padding: 15px;
+    }
+
+    .event h2 {
+        font-size: 1.5em;
+    }
+
+    .event p {
+        font-size: 0.9em;}
+}
+footer {
+    background-color: #111111;
+    padding: 1rem;
+    display: flex;
+    padding-inline: 20px;
+    align-items: center;
+}
+
+.contact-info, .social-media, .newsletter-signup {
+    flex: 1;
+}
+
+.social-media {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.social-media .a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.social-media .a1 img {
+    margin-bottom: 0.5rem;
+}
+
+.social-media a1:hover {
+    color: #FFA500;
+}
+
+.newsletter-signup form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.newsletter-signup input {
+    flex: 1;
+}
+
+.quick-links{
+    padding-left:190px;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5;
+
+}
+.a1{
+color:white;
+text-decoration: none;
+}
